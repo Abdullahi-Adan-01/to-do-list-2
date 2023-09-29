@@ -1,13 +1,14 @@
 
 let container = document.getElementsByClassName('container');
+let title = document.querySelector('h1')
 let input = document.getElementById('inputField');
 let button = document.querySelector('button');
 let toDos = document.getElementById('toDoContainer');
 
 
-
-
-
+title.classList.add('responsive-title')
+button.classList.add('responsive-btn')
+input.classList.add('responsive-input')
 
 
 button.addEventListener('click', function () {

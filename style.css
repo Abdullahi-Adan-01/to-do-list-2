@@ -81,3 +81,30 @@ input {
     width: 170px;
     border-radius: 6px;
 }
+
+
+@media only screen and (max-width: 480px) {
+    .responsive-title {
+
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .responsive-btn {
+        height: 28px !important;
+        width: 28px !important;
+        /* display: none; */
+
+    }
+
+    .responsive-input {
+        padding: 3.5px;
+        width: 150px;
+    }
+
+    .container {
+        width: 60vw !important;
+        left: 50px;
+        overflow-x: hidden;
+    }
+}
