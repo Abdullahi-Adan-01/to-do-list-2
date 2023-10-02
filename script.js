@@ -26,7 +26,7 @@ button.addEventListener('click', function () {
         item.style.backgroundColor = '#edede9'
         item.style.borderRadius = '8px'
         item.style.padding = '7px'
-
+        item.classList.add('responsive-todo');
 
 
         // to do strikethrough
@@ -82,6 +82,7 @@ input.addEventListener('keydown', function (event) {
             item.style.backgroundColor = '#edede9';
             item.style.borderRadius = '8px';
             item.style.padding = '7px';
+            item.classList.add('responsive-todo');
 
             // to-do strikethrough
             item.addEventListener('click', function () {
